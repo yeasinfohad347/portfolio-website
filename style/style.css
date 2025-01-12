@@ -1,3 +1,11 @@
+.open-sans-normal{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -10,15 +18,28 @@ nav{
 
 }
 #name{
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 800;
 }
-#navigation{
+#uni{
+    color: rgb(253, 110, 10);
+}
+.navigation{
     display: flex;
     list-style: none;
+    align-items: center;
 }
-#navigation>li>a{
+.navigation>li>a{
     text-decoration: none;
-    margin-right: 10px;
-    color: black;
+    margin-right: 50px;
+    color: rgb(71, 71, 71);
     font-size: 20px;
+}
+.btn{
+    background-color: #FD6E0A;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
 }
